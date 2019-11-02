@@ -1,0 +1,4 @@
+Student name: Ryan Erfmann
+Student number: 655060
+Student class: INF1D
+URL student GitHub repository: https://github.com/Ryan-Erfmann/WebMarkup
