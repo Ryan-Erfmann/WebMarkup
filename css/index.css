@@ -47,3 +47,13 @@ li a:hover
 {
   background-color: #2699FB;
 }
+form
+{
+  margin: 0;
+  padding: 1.2em;
+}
+.CopyRName
+{
+  padding: auto;
+  padding-left: 5%;
+}
