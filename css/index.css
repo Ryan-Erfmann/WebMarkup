@@ -10,7 +10,7 @@ h1
   font-size: 2.8em;
   margin: 0;
 }
-header
+.Mainheader
 {
   margin: 0;
   padding: 1.5em 0;
@@ -25,20 +25,21 @@ ul
   padding: 0;
   overflow: hidden;
   background-color: #333;
+  border: 2px solid #2699FB;
 }
 
-li
+.Nav
 {
   float: left;
 }
-
-li a
+.Nav a
 {
   display: block;
   color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  border: 2px solid #2699FB;
 }
 li a:hover
 {
