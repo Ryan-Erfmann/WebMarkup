@@ -118,12 +118,13 @@
       <form class="" action="http://witan.nl/inholland/testform.php" method="post">
         <fieldset>
           <legend>Contact</legend>
-          <label for=""></label>
-          <input type="name" name="name">
-          <label for=""></label>
-          <input type="email" name="email">
-          <label for=""></label>
-          <input type="message" name="message">
+          <label for="naam">Naam:</label>
+          <input type="text" id="naam" name="naam" />
+          <label for="email">E-mail:</label>
+          <input type="email" id= "email" name="email"/>
+          <label for="bericht">Bericht:</label>
+          <textarea id="bericht" name="bericht">Type hier uw bericht</textarea>
+          <input type="submit" value="verstuur" />
         </fieldset>
       </form>
     </main>
