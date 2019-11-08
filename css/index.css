@@ -88,10 +88,45 @@ li a:hover
 {
   background-color: #2699FB;
 }
+aside
+{
+  float: right;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+}
+.headerAside
+{
+  color: #000;
+}
 form
 {
   margin: 0;
   padding: 1.2em;
+  width: 30%;
+  margin-left: 35%;
+  margin-top: 10%;
+}
+legend
+{
+  font-size: 2em;
+  text-align: center;
+}
+input, textarea
+{
+  font-size: 1em;
+  padding: 0.8em;
+  border: 1px solid #ddd;
+  display: block;
+  width: 100%;
+  max-width: 400px;
+  box-sizing: border-box;
+}
+textarea
+{
+  font-family: Arial, sans-serif;
+  height: 100px;
+  margin-bottom: 1em;
 }
 .CopyRName
 {
