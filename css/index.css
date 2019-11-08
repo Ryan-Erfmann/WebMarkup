@@ -61,7 +61,16 @@ ul
   font-weight: bold;
   font-size: 1.1em;
 }
-
+ol
+{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 1.5em;
+  grid-row-gap: 1.5em;
+  list-style: none;
+  margin-left: 5%;
+  padding: 0;
+}
 .Nav
 {
   float: left;
