@@ -16,13 +16,39 @@ article
   padding: 0;
   font-size: 1em;
 }
-.Mainheader
+.WebsiteHeader
 {
   margin: 0;
   padding: 0.5em 0;
   background-color: #444;
   text-align: center;
   display: block;
+}
+.mainHeader
+{
+  position: relative;
+  text-align: center;
+}
+.mainHeaderImage
+{
+  margin-top: 1%;
+  width: 300px;
+  height: 200px;
+  opacity: 0.3;
+}
+.mainTitle
+{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #000;
+  font-size: 2em;
+}
+.mainContentImage
+{
+  width: 350px;
+  height: 250px;
 }
 ul
 {
