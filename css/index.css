@@ -3,6 +3,8 @@ html, body
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
+  border-left: 10px solid black;
+  border-right: 10px solid black;
 }
 h1
 {
@@ -15,6 +17,21 @@ article
   margin-left: 1%;
   padding: 0;
   font-size: 1em;
+}
+img
+{
+  width: 300px;
+  height: 200px;
+}
+#Maincontent,#Sport,#Contact
+{
+  background-color: #AAA;
+  border-bottom: 10px solid black;
+  border-top: 10px solid black;
+}
+.vetgedrukt
+{
+  font-weight: bold;
 }
 .NieuwePar
 {
@@ -40,6 +57,17 @@ article
   height: 200px;
   opacity: 0.3;
 }
+.secondTitle,.sportTitle
+{
+  margin-bottom: 5%;
+  text-align: center;
+  color: #000;
+  font-size: 2em;
+}
+.eersteRegel
+{
+  margin-top: 2%;
+}
 .mainTitle
 {
   position: absolute;
@@ -53,6 +81,10 @@ article
 {
   width: 300px;
   height: 250px;
+}
+.footerText
+{
+  margin-top: 2%;
 }
 ul
 {
@@ -88,20 +120,29 @@ ol
   text-decoration: none;
   border: 2px solid #2699FB;
 }
-li a:hover
+.Nav a:hover
 {
   background-color: #2699FB;
 }
+.textImg
+{
+  max-width: 300px;
+  line-height: 150%;
+}
 aside
 {
-  float: right;
-  border-top: 1px solid black;
-  border-left: 1px solid black;
-  border-bottom: 1px solid black;
+  text-align: center;
+  border-bottom: 10px solid black;
+}
+.imgAside
+{
+  width: 300px;
+  height: 200px;
 }
 .headerAside
 {
   color: #000;
+  text-align: center;
 }
 form
 {
@@ -109,7 +150,6 @@ form
   padding: 1.2em;
   width: 30%;
   margin-left: 35%;
-  margin-top: 10%;
 }
 legend
 {
@@ -136,4 +176,12 @@ textarea
 {
   padding: auto;
   padding-left: 5%;
+}
+@media(max-width: 800px)
+{
+  form
+  {
+    width: 85%;
+    margin-left: 0;
+  }
 }
