@@ -16,6 +16,10 @@ article
   padding: 0;
   font-size: 1em;
 }
+.NieuwePar
+{
+  margin-top: 4%;
+}
 .WebsiteHeader
 {
   margin: 0;
@@ -47,7 +51,7 @@ article
 }
 .mainContentImage
 {
-  width: 350px;
+  width: 300px;
   height: 250px;
 }
 ul
