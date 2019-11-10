@@ -274,6 +274,11 @@ textarea
     float: none;
     width: 100%;
   }
+  img
+  {
+    width: 250px;
+    height: 150px;
+  }
   ol
   {
     grid-template-columns: 1fr;
