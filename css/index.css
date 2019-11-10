@@ -2,15 +2,22 @@ html, body
 {
   margin: 0;
   padding: 0;
-  font-family: Arial,sans-serif;
+  font-family: Arial,serif,sans-serif;
   border-left: 10px solid black;
   border-right: 10px solid black;
+  z-index: -1;
 }
+main
+{
+  margin: auto;
+}
+
 .myVideo
 {
+  position: absolute;
   right: 0;
   bottom: 0;
-  width: 100%;
+  min-width: 100%;
 }
 h1
 {
@@ -18,12 +25,17 @@ h1
   font-size: 2.8em;
   margin: 0;
 }
+h2
+{
+  color: #fff;
+}
+/*welkom in het midden van de video zetten*/
 .TitleVid
 {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  top: 100%;
+  left: 100%;
+  transform: translate(-100%, -100%);
   width: 100%;
   padding: 20px;
   color: #fff;
@@ -164,8 +176,14 @@ aside
   width: 300px;
   height: 200px;
 }
+@font-face
+{
+  font-family: "Martial Arts";
+  src: url("../fonts/njnaruto.ttf");
+}
 .headerAside
 {
+  font-family: "Martial Arts";
   color: #000;
   text-align: center;
 }
@@ -205,10 +223,46 @@ textarea
 {
   text-align: center;
 }
+@media (max-width: 1180px) and (min-width: 800px)
+{
+  video
+  {
+    margin-top: 0%;
+    height: auto;
+    transform: none;
+  }
+  .Nav
+  {
+    float: none;
+    width: 100%;
+  }
+  ol
+  {
+    grid-template-columns: 1fr;
+    margin-left: 30%;
+  }
+  form
+  {
+    width: 85%;
+    margin-left: 0;
+  }
+  #Maincontent
+  {
+    margin-top: 100%;
+  }
+  .myVideo
+  {
+    position: absolute;
+    width: 100%;
+    min-width: 20%;
+    margin-right: 5%;
+  }
+}
 @media(max-width: 800px)
 {
-  nav li
+  .Nav
   {
+    float: none;
     width: 100%;
   }
   ol
@@ -220,5 +274,17 @@ textarea
   {
     width: 85%;
     margin-left: 0;
+  }
+  #Maincontent
+  {
+    margin-top: 130%;
+  }
+  .myVideo
+  {
+    position: absolute;
+    width: 90%;
+    height: auto;
+    margin-right: 5%;
+    z-index: -2;
   }
 }
