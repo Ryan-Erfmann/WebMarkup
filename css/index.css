@@ -11,6 +11,10 @@ main
 {
   margin: auto;
 }
+#Maincontent
+{
+  margin-top: 35%;
+}
 
 .myVideo
 {
@@ -18,6 +22,7 @@ main
   right: 0;
   bottom: 0;
   min-width: 100%;
+  z-index: -1;
 }
 h1
 {
