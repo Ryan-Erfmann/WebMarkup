@@ -7,6 +7,10 @@ html, body
   border-right: 10px solid black;
   z-index: -1;
 }
+p
+{
+  line-height: 200%;
+}
 main
 {
   margin: auto;
